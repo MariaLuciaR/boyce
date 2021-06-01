@@ -1,9 +1,10 @@
 body {
-  font-family: Work Sans;
+  font-family: monospace;
   font-size: 32px;
   line-height: 1.5;
   background: #000000;
   color: #ffffff;
+  margin: 0;
 }
 
 .slideshow {
@@ -30,26 +31,27 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 20px 30px;
+  box-sizing: border-box;
 }
 
 .slide-1 {
-  background-image: url(boyce_1.jpg);
+  background-image: url(./images/boyce_1.jpg);
 }
 
 .slide-2 {
-  background-image: url(boyce_2.jpg);
+  background-image: url(./images/boyce_2.jpg);
 }
 
 .slide-3 {
-  background-image: url(boyce_3.jpg);
+  background-image: url(./images/boyce_3.jpg);
 }
 
 .slide-4 {
-  background-image: url(boyce_4.jpg);
+  background-image: url(./images/boyce_4.jpg);
 }
 
 .slide-5 {
-  background-image: url(boyce_5.jpg);
+  background-image: url(./images/boyce_5.jpg);
 }
 
 .steps {
