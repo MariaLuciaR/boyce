@@ -18,7 +18,7 @@ body {
   position: relative;
   top: 0;
   left: 0;
-  width: 10000vw;
+  width: 500vw;
   height: 100vh;
   transition: left 1s;
 }
